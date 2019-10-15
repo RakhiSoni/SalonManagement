@@ -1,4 +1,4 @@
-const Customer = require('../models/db');
+const Customer = require('../models/register.db');
 
 //Simple version, without validation or sanitation
 exports.register = function (req, res) {
