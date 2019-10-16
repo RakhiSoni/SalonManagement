@@ -6,5 +6,5 @@ const Customer_controller = require('../controllers/customer.controller');
 
 
 // a simple test url to check that all of our files are communicating correctly.
-router.get('/availability', Customer_controller.getService);
+router.post('/availability', Customer_controller.getService);
 module.exports = router;
